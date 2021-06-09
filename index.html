@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOOD-RECEIPE-WEB-APP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row firstrow">
+        <div class="col-md-3 col-sm-12 logo">
+          <h4>
+            <i
+              class="fa fa-cutlery"
+              style="color: rgb(250, 190, 40)"
+              id="flask"
+            ></i>
+            <strong>RECIPE-APP</strong>
+          </h4>
+        </div>
+        <div class="col-md-9 col-sm-12 search">
+          <input type="search" placeholder="Search here" class="js-userinput" />
+          <button class="btn btn-warning searchbutton" onclick="foo()">
+            <strong>SEARCH</strong>
+          </button>
+        </div>
+      </div>
+      <div class="row middle">
+        <div class="col-md-6 col-sm-6 _thirdrowcolone">
+          <p id="ingredients"><strong>INGREDIENTS</strong></p>
+          <div id="ingredientDiv"></div>
+        </div>
+
+        <div class="col-md-6 col-sm-6 _thirdrowcoltwo">
+          <p id="procedure"><strong>PROCEDURE</strong></p>
+          <div id="instructionDiv"></div>
+        </div>
+      </div>
+      <div class="row thirdrow">
+        <div class="col-md-6 col-sm-12 thirdrowcolone">
+          <p id="nameofMeal"><strong>NAME</strong></p>
+          <!-- image insert -->
+          <div id="imge" class="imagediv"></div>
+        </div>
+        <div class="col-md-6 col-sm-12 thirdrowcoltwo">
+          <p id="Yvideo"><strong>YOUTUBE VIDEO</strong></p>
+          <!-- video insert -->
+          <div id="video" class="videodiv"></div>
+        </div>
+      </div>
+
+      <p id="head"><strong>SEARCH LATEST INGREDIENTS</strong></p>
+      <div class="row fourthrow">
+        <div class="col-md-6 col-sm-12 paneer">
+          <img src="paneer.jpg" id="imagepaneer" />
+        </div>
+        <div class="col-md-6 col-sm-12 sandwich">
+          <img src="sandwich.jpg" id="imagesandwich" />
+        </div>
+      </div>
+      <div class="row fifthrow">
+        <div class="col-md-6 col-sm-12 burger">
+          <img src="burger.jpg" id="imageburger" />
+        </div>
+        <div class="col-md-6 col-sm-12 noodles">
+          <img src="noodles.jpg" id="imagenoodles" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

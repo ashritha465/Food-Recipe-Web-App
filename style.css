@@ -1,0 +1,191 @@
+.body{
+background-color: black; 
+height: 1500px;
+}
+.container-fluid{
+ background-color: black; 
+ height: 1650px;
+}
+.firstrow{
+    margin:2px;
+   background-color: black;
+
+}
+.secondrow{
+    margin: 2px;
+}
+.thirdrow{
+    margin-bottom: 10px;
+}
+.logo{
+    border-radius: 5px;
+    height:60px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    color: #f59403;
+    
+    
+}
+.search{
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    align-items: center;
+    
+}
+#ingredients{
+    color: rgb(253, 244, 244);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#ingredientDiv{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#procedure{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#instructionDiv{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: justify;
+    padding:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#nameofMeal{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#Yvideo{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#instructionDiv{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: justify;
+    padding:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*  */
+.imagediv{
+    display: flex;
+    justify-content: center;
+}
+#video{
+    display: flex;
+    justify-content: center; 
+}
+/*  */
+p{
+
+    background-color: #f5d020;
+background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    height: 40px;
+    padding:10px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 8px;
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+    .text{
+        text-align: center;
+        padding: 5px;
+        height:60px;
+        font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 388px) {
+    .text{
+        text-align: center;
+        padding: 5px;
+        height:60px;
+        font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 720px) {
+    .btn{
+        min-height: 40px;
+        min-width: 40px;
+        padding: 5px;
+        height:40px;
+        font-size: 10px;
+    }
+  }
+  input[type=search] {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 720px) {
+    input[type=search] {
+        width: 80%;
+      }
+  }
+  /*  */
+
+  .paneer{
+   height: 200px;
+   width: 200px;
+   display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .sandwich{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .burger{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .noodles{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  #imagepaneer{
+      border: solid 2px orange;
+      display: flex;
+      justify-content: center;
+  }
+  #imagesandwich{
+    border: solid 2px orange;
+    display: flex;
+    justify-content: center;
+}
+#imageburger{
+    border: solid 2px orange;
+    display: flex;
+    justify-content: center;
+}
+#imagenoodles{
+    border: solid 2px orange;
+    display: flex;
+    justify-content: center;
+}
+
+.fourthrow{
+    display: flex;
+    justify-content: center;
+}
+.fifthrow{
+    display: flex;
+    justify-content: center;
+}
